@@ -49,3 +49,15 @@ fun contohRow(modifier: Modifier){
     }
 }
 
+@Composable
+fun TateletakColumn(modifier: Modifier){
+    Column(modifier = Modifier
+        .padding(top = 60.dp, start = 60.dp)
+        .fillMaxWidth()
+    ) {
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
+    }
+}
