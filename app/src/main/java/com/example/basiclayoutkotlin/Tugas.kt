@@ -82,6 +82,12 @@ fun LoginPage(modifier: Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Text(
+                text = "20240140102",
+                fontSize = 25.sp,
+                color = Color.Black,
+                fontWeight = FontWeight.Bold
+            )
 
 
 }
