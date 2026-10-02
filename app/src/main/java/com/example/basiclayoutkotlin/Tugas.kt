@@ -75,5 +75,13 @@ fun LoginPage(modifier: Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Text(
+                text = "Farhan Rasyid Mustaqim",
+                fontSize = 15.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
+
+
 
 }
