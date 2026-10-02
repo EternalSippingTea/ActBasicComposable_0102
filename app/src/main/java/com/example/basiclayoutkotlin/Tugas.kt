@@ -29,5 +29,7 @@ import androidx.compose.ui.unit.sp
 fun LoginPage(modifier: Modifier) {
     val background = painterResource(id = R.drawable.background)
     val logo = painterResource(id = R.drawable.logo)
-    
+    val profpic = painterResource(id = R.drawable.profpic)
+
+
 }
