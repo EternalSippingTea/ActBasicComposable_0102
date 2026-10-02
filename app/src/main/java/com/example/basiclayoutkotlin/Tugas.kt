@@ -15,6 +15,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
@@ -31,5 +32,8 @@ fun LoginPage(modifier: Modifier) {
     val logo = painterResource(id = R.drawable.logo)
     val profpic = painterResource(id = R.drawable.profpic)
 
-
+    Box(
+        modifier = modifier.fillMaxSize()
+    )
+    
 }
