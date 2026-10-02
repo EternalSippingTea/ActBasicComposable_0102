@@ -34,6 +34,12 @@ fun LoginPage(modifier: Modifier) {
 
     Box(
         modifier = modifier.fillMaxSize()
-    )
-    
+    ) {
+        Image(
+            painter = background,
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
 }
