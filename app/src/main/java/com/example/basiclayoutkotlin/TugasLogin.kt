@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
@@ -58,6 +59,8 @@ fun LoginPage(modifier: Modifier) {
                 color = Color.White
             )
 
+            Spacer(modifier = Modifier.height(15.dp))
+
             Image(
                 painter = logo,
                 contentDescription = null,
@@ -67,6 +70,8 @@ fun LoginPage(modifier: Modifier) {
                     .clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
+
+            Spacer(modifier = Modifier.height(30.dp))
 
             Text(
                 text = "Nama",
@@ -82,12 +87,16 @@ fun LoginPage(modifier: Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Spacer(modifier = Modifier.height(10.dp))
+
             Text(
                 text = "20240140102",
                 fontSize = 25.sp,
                 color = Color.White,
                 fontWeight = FontWeight.Bold
             )
+
+            Spacer(modifier = Modifier.height(10.dp))
 
             Image(
                 painter = profpic,
