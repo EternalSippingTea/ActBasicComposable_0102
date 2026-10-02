@@ -27,6 +27,6 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun LoginPage(modifier: Modifier) {
+    val background = painterResource(id = R.drawable.background)
 
-    
 }
