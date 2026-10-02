@@ -49,5 +49,12 @@ fun LoginPage(modifier: Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
+            Text(
+                text = "Login",
+                fontSize = 30.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
+
 
 }
