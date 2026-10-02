@@ -62,6 +62,11 @@ fun LoginPage(modifier: Modifier) {
                 color = Color.White
             )
 
+            Image(
+                painter = logo,
+                contentDescription = null,
+                modifier = Modifier.height(150.dp)
+            )
 
 
 }
