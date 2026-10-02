@@ -1,5 +1,7 @@
 TugasLogin Output
-<img width="1080" height="2400" alt="Screenshot_20261002_205456" src="https://github.com/user-attachments/assets/7354febd-fa78-434e-907f-5e6496e731ce" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/53b9b388-7461-4de7-ae85-b58136c8efbb" />
+
 
 TataLetak Output
-<img width="1080" height="2400" alt="Screenshot_20261002_211131" src="https://github.com/user-attachments/assets/2e4732ef-4365-4d93-8280-1afcffc6d327" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/3ad3655b-7165-4ef1-a6c2-f2b57a13ee1e" />
+
