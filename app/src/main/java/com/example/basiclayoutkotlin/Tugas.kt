@@ -89,5 +89,13 @@ fun LoginPage(modifier: Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Image(
+                painter = profpic,
+                contentDescription = null,
+                modifier = Modifier.height(300.dp),
+                contentScale = ContentScale.Fit
+            )
+        }
+    }
 
 }
