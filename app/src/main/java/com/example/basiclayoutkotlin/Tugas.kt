@@ -68,5 +68,12 @@ fun LoginPage(modifier: Modifier) {
                 modifier = Modifier.height(150.dp)
             )
 
+            Text(
+                text = "Nama",
+                fontSize = 12.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold
+            )
+
 
 }
