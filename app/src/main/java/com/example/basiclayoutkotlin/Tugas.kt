@@ -56,5 +56,12 @@ fun LoginPage(modifier: Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Text(
+                text = "Ini adalah halaman login.",
+                fontSize = 10.sp,
+                color = Color.White
+            )
+
+
 
 }
