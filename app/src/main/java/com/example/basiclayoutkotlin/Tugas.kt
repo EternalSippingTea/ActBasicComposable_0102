@@ -42,4 +42,12 @@ fun LoginPage(modifier: Modifier) {
             contentScale = ContentScale.Crop
         )
 
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 40.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
+
 }
