@@ -25,7 +25,7 @@ import androidx.compose.ui.draw.clip
 @Composable
 fun LoginPage(modifier: Modifier) {
     val background = painterResource(id = R.drawable.newbg)
-    val logo = painterResource(id = R.drawable.logo)
+    val logo = painterResource(id = R.drawable.newlogo)
     val profpic = painterResource(id = R.drawable.newpic)
 
     Box(
@@ -61,7 +61,11 @@ fun LoginPage(modifier: Modifier) {
             Image(
                 painter = logo,
                 contentDescription = null,
-                modifier = Modifier.height(150.dp)
+                modifier = Modifier
+                    .height(150.dp)
+                    .width(150.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
             )
 
             Text(
